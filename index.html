@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPortfolio</title>
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#portfolio">My Project</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+<!------------------- home ---------------------->
+
+
+     <section class="home" id="home">
+        <div class="home-content">
+            <h3>hello, It's Me</h3>
+            <h1>Shamith Udesha</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>I am a Frontend Developer with a passion for creating interactive and
+            responsive web applications. I have experience
+            working with JavaScript, React, Redux, Node.js,
+            HTML, CSS, and Git. I am a quick learner and I am always
+            looking to expand my knowledge and skill set.
+            I am excited to work with others to create amazing applications.</p>
+
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook' ></i></a>
+                <a href="https://www.linkedin.com/in/shamith-siriwardhana-26b38431a/"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://github.com/Udesha-SMS"><i class='bx bxl-github' ></i></a>
+            </div>
+
+            <a href="" class="btn">Download CV</a>
+
+        </div>
+
+        <div class="home-img">
+            <img src="images/main-image.png" alt="">
+        </div>
+
+     </section>
+
+<!---------------- About --------------->
+
+
+<div id="about">
+  <div class="container">
+    <div class="row">
+      
+      
+      <div class="about-col-1">
+        <img src="images/about-image.avif" alt="About Me Photo">
+      </div>    
+
+      
+      <div class="about-col-2">
+        <h1 class="sub-title">About <span>Me</span></h1>
+        <p>
+          I'm Shamith Udesha, a UI/UX Designer from Sri Lanka. 
+          Passionate about eye catchy and user-friendly websites and applications. 
+          I specialize in bringing designs to life with clean, simple and a focus on user experience. 
+          I'm excited to make the leap and continue refining my skills with the right company. 
+          Thanks for checking out my portfolio!
+        </p>
+                    
+        
+        <div class="tab-titles">
+          <p class="tab-links active-link" onclick="openTab('skills', this)">Skills</p>
+          <p class="tab-links" onclick="openTab('certification', this)">Certification</p>
+          <p class="tab-links" onclick="openTab('education', this)">Education</p>
+
+        </div>
+
+        
+        <div class="tab-contents active-tab" id="skills">
+          <ul>
+            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+            <li><span>Web Development</span><br>Web App Development</li>
+            <li><span>App Development</span><br>Building Android/iOS Apps</li>
+
+          </ul>
+        </div>
+
+        
+        <div class="tab-contents" id="certification">
+          <ul>
+            <li><span>2024</span><br>Front-End Web Development(Issued by University of Moratuwa)</li>
+            <li><span>2024</span><br>Front End Development(Issued by Great Learning)</li>
+            <li><span>2024</span><br>UI/UX for Beginners(Issued by Great Learning)</li>
+            <li><span>2024</span><br>Design App(Issued by Great Learning)</li>
+
+          </ul>
+        </div>
+
+    
+        <div class="tab-contents" id="education">
+          <ul>
+             <li><span>2024</span><br>underGratuate in BSc(Hons)in Information Technology specialize in Information Technology, SLIIT</li>
+            <li><span>2015</span><br>Anuruddha Central College (Passed O/L& Passed A/L)</li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!----------------- project ------------------>
+
+<section class="portfolio" id="portfolio">
+    <h1 class="heading">Latest <span>Project</span></h1>
+
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="images/portfolio1.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Portfolio Website</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, esse.</p>
+                <a href="https://github.com/Udesha-SMS/My-portfolio"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="images/portfolio2.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>AirLine Ticket Reservation System</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, esse.</p>
+                <a href="https://github.com/Udesha-SMS/AirLine-Ticket-reservation-System"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="images/portfolio3.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Online Event Planning system</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, esse.</p>
+                <a href="https://github.com/Udesha-SMS/Online-Event-Planning-System"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="images/project4.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Task Manager</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, esse.</p>
+                <a href="https://github.com/Udesha-SMS/Task-Manager"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="images/project5.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Private Institute Management</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, esse.</p>
+                <a href="https://github.com/Udesha-SMS/Private-institute-Management"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="images/project6.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Finance Fusion</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, esse.</p>
+                <a href="https://github.com/Udesha-SMS/FinanceFusion"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!----------------- Contact ------------------>
+
+<section class="contact" id="contact">
+  <h2 class="heading">Contact <span>Me!</span></h2>
+
+  <form action="submit-to-google-sheet" method="POST">
+    <div class="input-box">
+
+      <input type="text" placeholder="Full Name">
+      <input type="email" placeholder="Email Address">
+
+    </div>
+    <div class="input-box">
+
+      <input type="number" placeholder="Mobile Number">
+      <input type="text" placeholder="Email Subject">
+
+    </div>
+    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+    <input type="submit" value="Send Message" class="btn">
+  </form>
+</section>
+
+<!----------------- footer ------------------>
+
+<footer class="footer">
+  <div class="footer-text">
+    <p>Copyright © Shamith Udesha  | All Right Reserved.</p>
+  </div>
+
+  <div class="footer-iconTop">
+    <a href="#"><i class='bx bxl-facebook' ></i></a>
+    <a href="https://www.linkedin.com/in/shamith-siriwardhana-26b38431a/"><i class='bx bxl-linkedin' ></i></a>
+    <a href="https://github.com/Udesha-SMS"><i class='bx bxl-github' ></i></a>
+  </div>
+</footer>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
